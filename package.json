@@ -5,7 +5,7 @@
         "install-all":"npm run install-client && npm run install-server",
         "install-client-force":"cd client && npm install --force",
         "install-server-force":"cd server && npm install --force",
-        "install-all-foce":"npm run install-client-force && npm run install-server-force",
+        "install-all-force":"npm run install-client-force && npm run install-server-force",
         "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
         "server": "cd server && npm start",
         "client": "cd client && npm start"
