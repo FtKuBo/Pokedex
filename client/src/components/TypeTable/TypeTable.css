@@ -1,0 +1,29 @@
+.dataTableContainer {
+    background-color: white; 
+    border-radius: 8px; 
+    overflow: auto; 
+}
+
+.dataTableContainer table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.dataTableContainer td {
+    font-size: 1.5vw;
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dataTableContainer tr:hover {
+    background-color: #f2f2f2;
+}
+
+.dataTableContainer span {
+    display: inline-block; 
+    background-color: #ddd; 
+    border-radius: 5px; 
+    padding: 10px;
+    margin:5px
+}
